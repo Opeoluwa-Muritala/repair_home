@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:repair_home/screens/login_page.dart';
+import 'package:repair_home/pages/login_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const SignInScreen(),
+      home: const LoginPage(),
     );
   }
 }
